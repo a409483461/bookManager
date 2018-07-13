@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>BookListServlet</servlet-name>
+    <servlet-class>com.xuxin.servlet.BookListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addbookservlet</servlet-name>
+    <servlet-class>com.xuxin.servlet.addbookservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>findBookByIdServlet</servlet-name>
+    <servlet-class>com.xuxin.servlet.findBookByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>updateBookServlet</servlet-name>
+    <servlet-class>com.xuxin.servlet.updateBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>delBookServlet</servlet-name>
+    <servlet-class>com.xuxin.servlet.delBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>delAllBooksServlet</servlet-name>
+    <servlet-class>com.xuxin.servlet.delAllBooksServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>searchBooksServlet</servlet-name>
+    <servlet-class>com.xuxin.servlet.searchBooksServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PageServlet</servlet-name>
+    <servlet-class>com.xuxin.servlet.PageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>findbookinfoServlet</servlet-name>
+    <servlet-class>com.xuxin.servlet.findbookinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>searchbookajaxservlet</servlet-name>
+    <servlet-class>com.xuxin.servlet.searchbookajaxservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addCartServlet</servlet-name>
+    <servlet-class>com.xuxin.servlet.addCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>changeNum</servlet-name>
+    <servlet-class>com.xuxin.servlet.changeNum</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>BookListServlet</servlet-name>
+    <url-pattern>/servlet/bookListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addbookservlet</servlet-name>
+    <url-pattern>/servlet/addbookservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>findBookByIdServlet</servlet-name>
+    <url-pattern>/servlet/findBookByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateBookServlet</servlet-name>
+    <url-pattern>/servlet/updateBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delBookServlet</servlet-name>
+    <url-pattern>/servlet/delBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delAllBooksServlet</servlet-name>
+    <url-pattern>/servlet/delAllBooksServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchBooksServlet</servlet-name>
+    <url-pattern>/servlet/searchBooksServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PageServlet</servlet-name>
+    <url-pattern>/servlet/pageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>findbookinfoServlet</servlet-name>
+    <url-pattern>/servlet/findbookinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchbookajaxservlet</servlet-name>
+    <url-pattern>/servlet/searchbookajaxservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addCartServlet</servlet-name>
+    <url-pattern>/servlet/addCartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>changeNum</servlet-name>
+    <url-pattern>/servlet/changeNum</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
